@@ -5,7 +5,7 @@ import os
 from google.cloud import storage
 
 # Set the path to your service account key file
-service_account_key_file = '/Users/saichakradhar/Downloads/IP2/deep-beanbag-423322-p9-cc234e73d2b5.json'
+service_account_key_file = 'deep-beanbag-423322-p9-cc234e73d2b5.json'
 
 # Set the environment variable to point to your service account key file
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = service_account_key_file
