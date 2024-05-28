@@ -35,7 +35,9 @@ def multiturn_generate_content(text):
 
 def app():
     # Title of the webpage
-    st.title("Writer Project - Home")
+    st.title("Writer Project")
+    
+    st.subheader("Input a prompt and see it generate text in Kris Hammond's writing style")
 
     # Create two columns
     col1, col2 = st.columns(2)

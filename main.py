@@ -2,11 +2,11 @@ import streamlit as st
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Page 1", "Page 2"])
+page = st.sidebar.radio("Go to", ["Text Generation", "Text Rewriter"])
 
-if page == "Page 1":
+if page == "Text Generation":
     import home
     home.app()
-elif page == "Page 2":
+elif page == "Text Rewriter":
     import page2
     page2.app()
