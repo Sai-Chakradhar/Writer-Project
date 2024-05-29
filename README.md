@@ -29,8 +29,8 @@ pip install -r requirements.txt
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-repo/project-name.git
-    cd project-name
+    git clone https://github.com/your-repo/writer-project.git
+    cd writer-project
     ```
 
 2. Install the dependencies:
