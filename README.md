@@ -2,8 +2,7 @@
 # Writer
 
 ## Description
-The Writer project is a sophisticated web application designed to replicate and fine-tune large language models (LLMs) to emulate specific writing styles, particularly that of Professor Hammond. It leverages Streamlit for a dynamic front-end interface and integrates with Google Cloud services for robust storage solutions and advanced machine learning tasks.
-
+The Writer project consists of a fine-tuned large language model (LLM) designed to mimic the unique writing style of Professor Hammond. The user interface (UI) is developed using Streamlit and deployed on Streamlit Cloud, providing a simple yet effective platform for interacting with the model. 
 ## Features
 - Interactive web interface using Streamlit
 - Integration with Google Cloud Storage
