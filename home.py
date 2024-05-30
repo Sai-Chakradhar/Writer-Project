@@ -13,7 +13,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = service_account_key_file
 # Initialize a Google Cloud Storage client
 client = storage.Client()
 
-# Verify the authentication by listing the buckets
+
 buckets = list(client.list_buckets())
 
 def multiturn_generate_content(text):
@@ -39,7 +39,6 @@ def app():
     
     st.subheader("Input a prompt and see it generate text in Kris Hammond's writing style")
 
-    # Create two columns
     col1, col2 = st.columns(2)
 
     # Accept user input in the first column

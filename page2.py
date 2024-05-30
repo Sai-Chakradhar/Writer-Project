@@ -4,7 +4,7 @@ from vertexai.generative_models import GenerativeModel
 import os
 from google.cloud import storage
 
-# Set the path to your service account key file
+
 service_account_key_file = 'deep-beanbag-423322-p9-cc234e73d2b5.json'
 
 # Set the environment variable to point to your service account key file
@@ -13,7 +13,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = service_account_key_file
 # Initialize a Google Cloud Storage client
 client = storage.Client()
 
-# Verify the authentication by listing the buckets
+
 buckets = list(client.list_buckets())
 
 def multiturn_generate_content1(text):
