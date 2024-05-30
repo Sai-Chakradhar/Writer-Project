@@ -22,7 +22,7 @@ google-auth
 You can install them using the following command:
 
 ```sh
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Setup
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 2. Install the dependencies:
 
     ```sh
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
 3. Set up Google Cloud credentials:
