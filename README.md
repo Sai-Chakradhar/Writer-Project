@@ -9,8 +9,7 @@ The Writer project consists of a fine-tuned large language model (LLM) designed 
 - Machine learning capabilities via Vertex AI
 
 ## Requirements
-To run this project, you need the following dependencies installed:
-
+To run this project, you need Python 3 and the following dependencies installed:
 ```plaintext
 streamlit==1.10.0
 google-cloud-storage
