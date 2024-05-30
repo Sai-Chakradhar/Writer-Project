@@ -1,5 +1,5 @@
 
-# Writer
+# Writer Project
 
 ## Description
 The Writer project consists of a fine-tuned large language model (LLM) designed to mimic the unique writing style of Professor Hammond. The user interface (UI) is developed using Streamlit and deployed on Streamlit Cloud, providing a simple yet effective platform for interacting with the model. 
