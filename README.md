@@ -17,6 +17,7 @@ streamlit==1.10.0
 google-cloud-storage
 vertexai==1.43.0
 google-auth
+altair==4.0
 ```
 
 You can install them using the following command:
