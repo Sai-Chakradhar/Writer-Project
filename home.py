@@ -28,7 +28,7 @@ def multiturn_generate_content(text):
         "top_p": 1,
     }
     x = chat.send_message(
-        [text + " Write in the style of the person who you were finetuned on and don't talk about you. Write 300-500 words,  The tone is conversational and enthusiastic, reflecting a sense of excitement"],
+        [text + " Write in the style of the person who you were finetuned on and don't talk about you. Write 300-500 words"],
         generation_config=generation_config,
     )
     return x
