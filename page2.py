@@ -17,18 +17,18 @@ client = storage.Client()
 buckets = list(client.list_buckets())
 
 def multiturn_generate_content1(text):
-    vertexai.init(project="636028894151", location="us-central1")
+    vertexai.init(project="139700358880", location="us-central1")
     model = GenerativeModel(
-        "projects/636028894151/locations/us-central1/endpoints/1857125716848541696",
+    "projects/139700358880/locations/us-central1/endpoints/6629076550140559360",
     )
     chat = model.start_chat()
     generation_config = {
-        "max_output_tokens": 4048,
+        "max_output_tokens": 2048,
         "temperature": 1,
         "top_p": 1,
     }
     x = chat.send_message(
-        [text + " Rephrase and rewrite this by the style Rewrite 800 words striclty"],
+        [text + " Write in the style of the person who you were finetuned on and don't talk about you. Write 300-500 words"],
         generation_config=generation_config,
     )
     return x
