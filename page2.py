@@ -14,12 +14,10 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = service_account_key_file
 client = storage.Client()
 
 
-buckets = list(client.list_buckets())
-
 def multiturn_generate_content1(text):
-    vertexai.init(project="139700358880", location="us-central1")
+    vertexai.init(project="363949151355", location="us-central1")
     model = GenerativeModel(
-    "projects/139700358880/locations/us-central1/endpoints/6629076550140559360",
+    "projects/363949151355/locations/us-central1/endpoints/5997868914866913280",
     )
     chat = model.start_chat()
     generation_config = {
