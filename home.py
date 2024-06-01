@@ -99,6 +99,8 @@ def app():
     with col2:
         st.write("Generated text")
         if user_input:
+            x1 = create_service_account_json()
+            st.write(x1)
             y = multiturn_generate_content(user_input)
             y = y.to_dict()
             content = y['candidates'][0]['content']['parts'][0]['text']
